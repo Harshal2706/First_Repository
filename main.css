@@ -1,0 +1,60 @@
+body{
+  font-family: Arial, san-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+display: flex;
+  align-items: center;
+  background: #2d6a4f;
+  padding: 1rem;
+}
+.navbar .logo {
+height: 40px;
+  margin-right: 1rem;
+}
+.navbar a {
+  color: #fff;
+  margin-right: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+.landing {
+text-align: center;
+  padding: 3rem 1rem;
+  background: #fff;
+}
+.cta-buttons button {
+margin: 0.5rem;
+  padding: 0.75rem 2rem;
+  background:#40916c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.carousel{
+margin-top: 2rem;
+}
+.carousel-items img {
+width: 120px;
+  margin: 0 0.5rem;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+}
+.auth {
+max-width: 350px;
+  margin: 2 rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+}
+.dashboard, .add-item, .item-detail, .admin-panel {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
